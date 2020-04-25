@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Tuli;
+    src: url(Tuli.ttf);
+}
+
+header {
+    background-color: #2d545e;
+    max-width: 100%;
+    height: 100px;
+}
+
+header>h3 {
+    font-size: 55px;
+    color: #e1b382;
+    padding-top: 20px;
+    justify-content: center;
+    text-align: center;
+    font-family: Tuli;
+}
+
+.cover-img {
+    padding-top: 0;
+    height: 350px !important;
+    width: 100% !important;
+    background-attachment: fixed !important;
+}
+
+.flex-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.flex-1 {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 400px;
+    padding: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #e1b382;
+    border-radius: 15px;
+}
+
+.flex-1:hover {
+    background-color: #ebd36a8f;
+}
+
+.flex-2:hover {
+    background-color: #ebd36a8f;
+}
+
+.flex-3:hover {
+    background-color: #ebd36a8f;
+}
+
+.flex-2 {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 400px;
+    padding: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #d3b697;
+    border-radius: 15px;
+}
+
+.flex-3 {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 400px;
+    padding: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #e1b382;
+    border-radius: 15px;
+}
+
+.dua-1 {
+    text-align: center;
+    font-family: Tuli;
+    font-size: 28px;
+}
+
+.dua-2 {
+    text-align: center;
+    font-family: Tuli;
+    font-size: 23px;
+    font-weight: lighter;
+}
+
+hr {
+    margin: 30px !important;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tab {
+    width: 900px;
+    border: 2px solid rgba(22, 17, 17, 0.5);
+    font-size: 22px;
+    color: black;
+    font-family: Tuli;
+    font-weight: lighter;
+    border-radius: 15px;
+}
+
+th {
+    background-color: #e9cf9f;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+    text-align: center !important;
+    border: 1.5px solid rgba(54, 50, 50, 0.5);
+    font-weight: lighter;
+}
+
+td {
+    padding-left: 8px;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+    text-align: center !important;
+    border: 1px solid rgba(22, 17, 17, 0.5);
+    font-weight: lighter;
+}
+
+.time-text {
+    text-align: center;
+    font-family: Tuli;
+    font-size: 40px;
+}
+
+footer {
+    background-color: #2d545e;
+    max-width: 100%;
+    height: 100px;
+}
+
+.sizan {
+    font-family: 'Lemon', cursive;
+    color: rgb(212, 198, 66);
+}
+
+.copyright {
+    color: aliceblue;
+}
+
+.foot {
+    text-align: center;
+    padding-top: 35px;
+    font-size: 18px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #2d545e;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #2d545e;
+}
+
+a:hover {
+    text-decoration: none !important;
+    color: #2d545e !important;
+    font-weight: 700;
+}
+
+a:active {
+    text-decoration: none;
+    color: #294349;
+}
